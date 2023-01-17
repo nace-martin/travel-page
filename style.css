@@ -119,7 +119,7 @@ h2 {
 /* Quote Section*/
 
 .quote {
-  background-color: aqua;
+  background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -130,7 +130,7 @@ h2 {
 }
 
 .quote .text {
-  font-size: 36px;
+  font-size: 32px;
   color: #1f2937;
   font-style: italic;
   width: 65vw;
