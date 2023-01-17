@@ -88,6 +88,14 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  margin: 25px 0;
+}
+
+h2 {
+  margin: 15px 0;
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
 }
 
 .info-list {
@@ -101,12 +109,29 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  gap: 15px;
 }
 
 .info-text {
   text-align: center;
 }
 
+/* Quote Section*/
+
 .quote {
-  background-color: e5e7eb;
+  background-color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 100vw;
+  margin: 0 0 25px;
 }
+
+.quote .text {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+}
+
+/* Call to Action Section*/
