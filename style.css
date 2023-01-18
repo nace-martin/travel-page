@@ -6,6 +6,7 @@
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
+  width: 100vw;
 }
 
 .header-main {
@@ -13,7 +14,7 @@ body {
   display: flex;
   align-items: center;
   height: 10vh;
-  padding: 0 15px;
+  padding: 0 10%;
 }
 
 .header-main h1 {
@@ -28,7 +29,7 @@ nav ul {
   list-style: none;
   display: flex;
   align-items: center;
-  gap: 15px;
+  gap: 45px;
 }
 
 .main-hero {
@@ -42,7 +43,7 @@ nav ul {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  padding: 0 15px;
+  padding-left: 10%;
 }
 
 .main-hero h2,
@@ -78,9 +79,11 @@ ul {
 }
 
 img {
-  max-width: 200px;
+  max-width: 250px;
   max-height: 200px;
   object-fit: contain;
+  border: solid 1px blue;
+  border-radius: 10px;
 }
 
 .info-sect {
@@ -88,7 +91,9 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 25px 0;
+  margin: 50px 0px;
+  height: 45vh;
+  width: 100vw;
 }
 
 h2 {
@@ -139,3 +144,52 @@ span {
   font-weight: bold;
 }
 /* Call to Action Section*/
+
+.cta {
+  font-size: 24px;
+  height: 50vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #e5e7eb;
+}
+
+.cta-main {
+  background-color: #3882f6;
+  color: antiquewhite;
+  flex: 1;
+  padding: 25px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 15%;
+  border-radius: 12px;
+}
+
+.cta h3 {
+  margin-bottom: 0.5em;
+}
+
+.cta p {
+  margin-bottom: 1em;
+}
+
+.cta button {
+  background-color: #3882f6;
+  border: solid 2.5px #f9faf8;
+  color: #f9faf8;
+  width: 112px;
+  height: 42px;
+}
+
+/* footer */
+
+footer {
+  background-color: #1f2937;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #e5e7eb;
+}
